@@ -1,0 +1,40 @@
+
+.mainBlock{
+    box-sizing: border-box;
+    width: 1060px;
+    background-color: #ffffff;
+    margin: 0 auto 0;
+    padding: 51px 47px 60px;
+    box-shadow: 0 -5px 5px rgba(0,0,0,0.5);
+}
+
+body{
+    background-color: #f9f9f9;
+    font: 13px/21px "Open Sans", sans-serif;
+}
+
+.nav_menu{
+    background-color: black;
+}
+
+.nav_menu_item{
+    float: left;
+    padding: 20px;
+    border: hidden;
+}
+
+.nav_menu_link:active{
+    border-right: white;
+    border-left: white;
+}
+
+.nav_menu_link{
+    text-decoration: none;
+    color: white;
+}
+
+.clear_fix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
